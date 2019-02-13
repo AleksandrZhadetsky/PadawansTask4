@@ -10,6 +10,10 @@ namespace PadawansTask4
             {
                 throw new ArgumentNullException();
             }
+            if (str == "")
+            {
+                throw new ArgumentException();
+            }
             int count = 0;
             char[] pattern = { 'a', 'e', 'u', 'i', 'o' };
 
